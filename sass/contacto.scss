@@ -1,0 +1,129 @@
+/* ---------------- CONTACTO ---------------- */
+
+.contacto__background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 13rem;
+    background-color: #fcce9e;
+}
+.contacto__title{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.contacto__title__h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #091420;
+    padding: 1.5rem;
+}
+.contacto__title__h3{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #091420;
+}
+
+.contacto__section__conteiner{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 3.13rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: -10rem;
+}
+
+.contacto__box{
+    display: flex;
+    padding: 2.5rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.contacto__nombre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0rem 3rem 0rem 3rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.contacto__mail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0rem 3rem 0rem 3rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.contacto__telefono{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0rem 3rem 0rem 3rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.contacto__servicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.contacto__consulta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+    textarea{
+    background-color: #e4e7ec;
+    border: none;
+    border-bottom:1px solid #091420;
+    font-size: 1.1rem;
+}
+.contacto__nombre__input{
+    text-decoration: none;
+    width: 20rem;
+    border: none;
+    border-bottom:1px solid #091420;
+    background-color: #e4e7ec;
+    font-size: 1.1rem;
+    color: #091420;
+}
+.contacto__label{
+    font-size: 1.1rem;
+    color: #091420;
+}
+.contacto__btn{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.contacto__btn__submit{
+    background-color: #fcce9e;
+    border-radius: 50px;
+    width: 8rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+/* ---------------- FINAL CONTACTO ---------------- */

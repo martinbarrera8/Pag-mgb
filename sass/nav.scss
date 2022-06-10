@@ -1,0 +1,45 @@
+/* ---------------- NAV ---------------- */
+
+.navbar{
+    background-color: #e4e7ec;
+    --bs-navbar-padding-y: 0rem;
+    }
+    
+    .nav__img{
+        display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    .nav__logo{
+        width: 12rem;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0.4rem;
+    
+    }
+    
+    .nav__head{
+        display: flex;
+    align-items: center;
+    }
+    
+    .nav__ul{
+        display: flex;
+    }
+    
+    .nav__li__a{
+    
+        font-size: 0.88rem;
+        color: #091420 ;
+        text-decoration: none;
+        font-weight: 600;
+        flex-direction: row;
+        padding: 1rem;
+        transition: all 0.1s ease-in-out;
+        padding-right: 1rem;
+    }
+    .nav__li__a:hover{
+        color: #fcce9e;
+    }
+    
+    /* ---------------- FINAL NAV ---------------- */

@@ -1,0 +1,26 @@
+/* -------- PARA MOVIL -------- */
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+
+    .navbar-collapse{
+        justify-content: center;
+        text-align: center;
+        background-color: #fcce9e;
+    }
+  
+
+}
+
+/*------------------------------------------------ Para Tablet ------------------------------------------------*/
+
+@media only screen and (min-width: 576px) and (max-width: 991px){
+
+    .navbar-collapse{
+        justify-content: center;
+        text-align: center;
+        background-color: #fcce9e;
+    }
+  
+
+}

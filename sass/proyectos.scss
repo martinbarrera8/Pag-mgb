@@ -1,0 +1,107 @@
+/* ---------------- PROYECTOS ---------------- */
+
+.proyectos__background{
+    display: flex;
+    background-color: #e4e7ec;
+    width: 100%;
+    justify-content: center;
+}
+
+
+#proyectos{
+    display: flex;
+    flex-direction: column;
+    background-color: #e4e7ec;
+    width: 90rem;
+    justify-content: center;
+}
+
+.proyectos__title{
+    display: flex;
+    grid-area: titulo;
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+.proyectos__title__h1{
+    
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.proyectos__conteiner{
+    display: flex;
+    padding: 1rem;
+    grid-area: box1;
+    justify-content: center;
+    align-items: center;
+}
+.proyectos__conteiner__box1{
+    display: flex;
+    flex-direction: column;
+}
+.box1__card1{
+    padding: 0.5rem;
+}
+.box1__card1__svg{
+    background-color: white;
+    width: 30rem;
+    height: 32rem;
+    border-radius: 50px;
+}
+
+.box1__card2{
+    padding: 0.5rem;
+}
+.box1__card2__svg{
+    background-color: white;
+    width: 30rem;
+    height: 28rem;
+    border-radius: 50px;
+}
+
+.proyectos__conteiner__box2{
+    display: flex;
+    flex-direction: column;
+}
+.box2__card3{
+    padding: 0.5rem;
+}
+.box2__card3__svg{
+    background-color: white;
+    width: 30rem;
+    height: 28rem;
+    border-radius: 50px;
+}
+
+.box2__card4{
+    padding: 0.5rem;
+}
+.box2__card4__svg{
+    background-color: white;
+    width: 30rem;
+    height: 32rem;
+    border-radius: 50px;
+}
+
+
+.proyectos__title__h2{
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.proyectos__conteiner__logofolio{
+    display: flex;
+    padding: 1rem 0rem 5rem 0rem;
+    grid-area: box2;
+    justify-content: center;
+    align-items: center;
+}
+.logofolio__box{
+    background-color: white;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50px;
+}
+
+/* ---------------- FINAL PROYECTOS ---------------- */
