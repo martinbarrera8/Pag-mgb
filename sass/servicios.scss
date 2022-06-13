@@ -32,6 +32,8 @@
         grid-area: servicios_b1;
         display: flex;
         align-items: center;
+
+
     
         .servicios__b1__box1{
             display: flex;
@@ -41,6 +43,13 @@
             border-radius: 0% 300px 300px 0%;
             align-items: center;
             justify-content: space-between;
+        }
+
+        .servicios__box__title__b1{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 1rem;
         }
     }
 
@@ -71,8 +80,9 @@
     section#servicios__b3{
         grid-area: servicios_b3;
         display: flex;
-        align-items: center;
+        align-items: center;    
     
+
         .servicios__b3__box3{
             display: flex;
             background-color: white;
@@ -82,12 +92,11 @@
             align-items: center;
             justify-content: space-between;
         }
-        .servicios__box__h3{
-            justify-content: center;
+        .servicios__box__title__b3{
+            display: flex;
+            flex-direction: row;
             align-items: center;
-            font-size: 1.4rem;
-            font-weight: 600;
-            padding: 0.5rem 0rem;
+            padding: 1rem;
         }
     }
     
@@ -114,6 +123,13 @@
         flex-direction: row-reverse;
         margin-bottom: 1rem;
         }
+    }
+    .servicios__box__h3{
+        justify-content: center;
+        align-items: center;
+        font-size: 1.4rem;
+        font-weight: 600;
+        padding: 0.5rem 0rem;
     }
     .servicios__box__title{
         display: flex;
