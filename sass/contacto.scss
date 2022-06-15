@@ -29,11 +29,12 @@
     color: #091420;
 }
 
+
 .contacto__section__conteiner{
     display: flex;
     width: 100%;
     height: 100vh;
-    padding: 3.13rem;
+    padding: 3rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -43,7 +44,7 @@
 
 .contacto__box{
     display: flex;
-    padding: 2.5rem;
+    padding: 3rem;
     flex-direction: row;
     justify-content: space-evenly;
 }
@@ -53,8 +54,9 @@
     justify-content: center;
     align-items: flex-start;
     padding: 0rem 3rem 0rem 3rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 500;
+    position: relative;
 }
 .contacto__mail{
     display: flex;
@@ -64,6 +66,7 @@
     padding: 0rem 3rem 0rem 3rem;
     font-size: 1rem;
     font-weight: 500;
+    position: relative;
 }
 .contacto__telefono{
     display: flex;
@@ -73,12 +76,13 @@
     padding: 0rem 3rem 0rem 3rem;
     font-size: 1rem;
     font-weight: 500;
+    position: relative;
 }
 .contacto__servicios{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2.5rem;
+    padding: 3rem;
     font-size: 1rem;
     font-weight: 500;
 }
@@ -86,29 +90,84 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2.5rem;
+    padding: 3rem;
     font-size: 1rem;
     font-weight: 500;
+    position: relative;
+    outline: none;
+    color: #091420;
 }
     textarea{
-    background-color: #e4e7ec;
+    background-color: #e4e7eca0;
     border: none;
     border-bottom:1px solid #091420;
     font-size: 1.1rem;
+    outline: none;
 }
+
 .contacto__nombre__input{
+    background-color: #e4e7eca0;
+    padding: 10px 0px 0px 0px;
     text-decoration: none;
     width: 20rem;
     border: none;
     border-bottom:1px solid #091420;
-    background-color: #e4e7ec;
     font-size: 1.1rem;
-    color: #091420;
 }
+
+
 .contacto__label{
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #091420;
+    position: absolute;
+    top: -22px;
+    transform: translate(0px, 10px);
+    transform-origin: left;
+    transition: transform .25s;
 }
+.contacto__nombre:focus-within .contacto__label{
+transform: 
+translate(0, -5px) scale(.8);
+color: #091420;
+font-size: 1.1rem;
+}
+.contacto__nombre:focus-within .contacto__nombre__input{
+    border-bottom:2px solid #fcce9e;
+    outline: none;
+}
+.contacto__mail:focus-within .contacto__label{
+    transform: 
+    translate(0, -5px) scale(.9);
+    color: #091420;
+    font-size: 1.1rem;
+}
+.contacto__mail:focus-within .contacto__nombre__input{
+    border-bottom:2px solid #fcce9e;
+    outline: none;
+}
+.contacto__telefono:focus-within .contacto__label{
+    transform: 
+    translate(0, -5px) scale(.8);
+    color: #091420;
+    font-size: 1.1rem;
+}
+.contacto__telefono:focus-within .contacto__nombre__input{
+    border-bottom:2px solid #fcce9e;
+    outline: none;
+}
+
+.contacto__servicios:focus-within .contacto__nombre__input{
+    border-bottom:2px solid #fcce9e;
+    outline: none;
+}
+.contacto__consulta:focus-within textarea{
+    border-bottom:2px solid #fcce9e;
+    outline: none;
+}
+.contacto__nombre__input:focus-within{
+color: #091420;
+}
+
 .contacto__btn{
     display: flex;
     justify-content: center;
