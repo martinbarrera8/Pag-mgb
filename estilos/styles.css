@@ -589,16 +589,6 @@ section#b4 {
       border-radius: 0% 300px 300px 0%;
       align-items: center;
       justify-content: space-between; }
-      #servicios__conteiner section#servicios__b1 .servicios__b1__box1 {
-        animation: displace_rigth;
-        animation-timing-function: ease-in-out;
-        animation-duration: .7s; }
-
-@keyframes displace_rigth {
-  0% {
-    transform: translateX(-100rem); }
-  100% {
-    transform: translateX(0); } }
       #servicios__conteiner section#servicios__b1 .servicios__b1__box1 .servicios__box__title__b1 {
         display: flex;
         flex-direction: row;
@@ -618,16 +608,6 @@ section#b4 {
       align-items: center;
       justify-content: space-between;
       flex-direction: row-reverse; }
-      #servicios__conteiner section#servicios__b2 .servicios__b2__box2 {
-        animation: displace_left;
-        animation-timing-function: ease-in-out;
-        animation-duration: .7s; }
-
-@keyframes displace_left {
-  0% {
-    transform: translateX(100rem); }
-  100% {
-    transform: translateX(0); } }
       #servicios__conteiner section#servicios__b2 .servicios__b2__box2 .servicios__box__title__b2 {
         display: flex;
         flex-direction: row;
@@ -645,16 +625,6 @@ section#b4 {
       border-radius: 0% 300px 300px 0%;
       align-items: center;
       justify-content: space-between; }
-      #servicios__conteiner section#servicios__b3 .servicios__b3__box3 {
-        animation: displace_rigth;
-        animation-timing-function: ease-in-out;
-        animation-duration: .7s; }
-
-@keyframes displace_rigth {
-  0% {
-    transform: translateX(-100rem); }
-  100% {
-    transform: translateX(0); } }
       #servicios__conteiner section#servicios__b3 .servicios__b3__box3 .servicios__box__title__b3 {
         display: flex;
         flex-direction: row;
@@ -675,16 +645,6 @@ section#b4 {
       justify-content: space-between;
       flex-direction: row-reverse;
       margin-bottom: 1rem; }
-      #servicios__conteiner section#servicios__b4 .servicios__b4__box4 {
-        animation: displace_left;
-        animation-timing-function: ease-in-out;
-        animation-duration: .7s; }
-
-@keyframes displace_left {
-  0% {
-    transform: translateX(100rem); }
-  100% {
-    transform: translateX(0); } }
       #servicios__conteiner section#servicios__b4 .servicios__b4__box4 .servicios__box__title__b4 {
         display: flex;
         flex-direction: row;

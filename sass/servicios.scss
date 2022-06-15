@@ -40,23 +40,7 @@
             height: 25rem;
             border-radius: 0% 300px 300px 0%;
             align-items: center;
-            justify-content: space-between;
-        
-            & {
-                animation: displace_rigth;
-                animation-timing-function: ease-in-out;
-                animation-duration: .7s;
-    
-                @keyframes displace_rigth {
-                    0%{
-                        transform: translateX(-100rem);
-                    }
-                    100%{
-                        transform: translateX(0);
-                    }
-                }
-            }
-
+            justify-content: space-between;       
 
         .servicios__box__title__b1{
             display: flex;
@@ -84,20 +68,6 @@
             justify-content: space-between;
             flex-direction: row-reverse;
         
-        & {
-            animation: displace_left;
-            animation-timing-function: ease-in-out;
-            animation-duration: .7s;
-
-            @keyframes displace_left {
-                0%{
-                    transform: translateX(100rem);
-                }
-                100%{
-                    transform: translateX(0);
-                }
-            }
-        }
         .servicios__box__title__b2{
             display: flex;
             flex-direction: row;
@@ -122,22 +92,7 @@
             border-radius: 0% 300px 300px 0%;
             align-items: center;
             justify-content: space-between;
-
-            & {
-                animation: displace_rigth;
-                animation-timing-function: ease-in-out;
-                animation-duration: .7s;
-    
-                @keyframes displace_rigth {
-                    0%{
-                        transform: translateX(-100rem);
-                    }
-                    100%{
-                        transform: translateX(0);
-                    }
-                }
-            }
-        
+      
         .servicios__box__title__b3{
             display: flex;
             flex-direction: row;
@@ -163,21 +118,7 @@
             justify-content: space-between;
             flex-direction: row-reverse;
             margin-bottom: 1rem;
-            
-            & {
-                animation: displace_left;
-                animation-timing-function: ease-in-out;
-                animation-duration: .7s;
-    
-                @keyframes displace_left {
-                    0%{
-                        transform: translateX(100rem);
-                    }
-                    100%{
-                        transform: translateX(0);
-                    }
-                }
-            }
+        
 
         .servicios__box__title__b4{
             display: flex;
