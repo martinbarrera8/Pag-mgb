@@ -11,7 +11,7 @@
 .navbar-collapse{
     justify-content: center;
     text-align: center;
-    background-color: #fcce9e;
+    background-color: $orangemain;
 }
 .navbar-toggler{
     border: none;
@@ -76,7 +76,7 @@
 .b1__box1{
     width: 100%;
     height: 16rem;
-    background-color: #e4e7ec;
+    background-color: $graymain;
     border-radius: 0rem;
     padding: 0.5rem;
 }
@@ -90,7 +90,7 @@
 .b2__box2{
     width: 100%;
     height: 16rem;
-    background-color: #e4e7ec;
+    background-color: $graymain;
     border-radius: 0rem;
     padding: 0.5rem;
 }
@@ -104,7 +104,7 @@
 .b3__box3{
     width: 100%;
     height: 16rem;
-    background-color: #e4e7ec;
+    background-color: $graymain;
     border-radius: 0rem;
     padding: 0.5rem;
 }
@@ -119,7 +119,7 @@
 .b4__box4{
     width: 100%;
     height: 16rem;
-    background-color: #e4e7ec;
+    background-color: $graymain;
     border-radius: 0rem;
     padding: 0.5rem;
 }
@@ -174,7 +174,7 @@
     padding: 0.25rem;
 }
 .box2__card4__svg{
-    background-color: white;
+    background-color: $white;
     width: 10.688rem;
     height: 11.438rem;
   border-radius: 50px;
@@ -194,7 +194,7 @@
     padding: 1rem 0rem 5rem 0rem;
 }
 .logofolio__box{
-    background-color: white;
+    background-color: $white;
     width: 10rem;
     height: 10rem;
     border-radius: 25px;
@@ -263,7 +263,7 @@
         }
         .servicios__b2__box2{
             display: flex;
-            background-color: white;
+            background-color: $white;
             width: 100%;
             height: 73rem;
             border-radius:0%;
@@ -277,7 +277,7 @@
     
         .servicios__b3__box3{
             display: flex;
-            background-color: white;
+            background-color: $white;
             width: 100%;
             height: 65rem;
             border-radius: 0%;
@@ -306,7 +306,7 @@
         }
         .servicios__b4__box4{
         display: flex;
-        background-color: white;
+        background-color: $white;
         width: 100%;
         height: 56rem;
         border-radius: 0%;
@@ -397,10 +397,10 @@ padding: 0.6rem;
     text-decoration: none;
     width: 20rem;
     border: none;
-    border-bottom:1px solid #091420;
-    background-color: #e4e7ec;
+    border-bottom:1px solid $bluemain;
+    background-color: $graymain;
     font-size: 0.90rem;
-    color: #091420;
+    color: $bluemain;
 }
 .contacto__label{
     font-size: 0.90rem;
@@ -409,13 +409,13 @@ textarea{
     height: 2em;
     width: 22em;
     font-size: 0.90rem;
-    border-bottom: 1px solid #091420;
+    border-bottom: 1px solid $bluemain;
 }
 .contacto__consulta{
     padding: 2.5rem 0rem;
 }
 .contacto__btn__summit{
-    background-color: #fcce9e;
+    background-color: $orangemain;
     border-radius: 50px;
     width: 6rem;
     height: 1.8rem;
@@ -552,7 +552,7 @@ padding: 0.5rem;
 .navFooter__barra{
     display: flex;
     align-content: center;
-    background-color: #e4e7ec;
+    background-color: $graymain;
     margin: 1rem;
     width: 0.08rem;
     height: 1rem;
@@ -575,7 +575,7 @@ padding: 0.5rem;
     .navbar-collapse{
         justify-content: center;
         text-align: center;
-        background-color: #fcce9e;
+        background-color: $orangemain;
     }
 /* ---------- FINAL NAV ---------- */
 

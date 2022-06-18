@@ -1,3 +1,4 @@
+@import "color";
 *{
   margin: 0;
   padding: 0;
@@ -18,7 +19,7 @@ a {
 }
 
 body{
-  background-color: #e4e7ec;
+  background-color: $graymain;
 
 }
 

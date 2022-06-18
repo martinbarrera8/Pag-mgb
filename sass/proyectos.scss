@@ -2,7 +2,7 @@
 
 .proyectos__background{
     display: flex;
-    background-color: #e4e7ec;
+    background-color: $graymain;
     width: 100%;
     justify-content: center;
 }
@@ -11,7 +11,7 @@
 #proyectos{
     display: flex;
     flex-direction: column;
-    background-color: #e4e7ec;
+    background-color: $graymain;
     width: 90rem;
     justify-content: center;
 }
@@ -24,7 +24,6 @@
     justify-content: center;
 }
 .proyectos__title__h1{
-    
     font-size: 3.5rem;
     font-weight: bolder;
 }
@@ -44,7 +43,7 @@
     padding: 0.5rem;
 }
 .box1__card1__svg{
-    background-color: white;
+    background-color: $white;
     width: 30rem;
     height: 32rem;
     border-radius: 50px;
@@ -128,19 +127,19 @@
         display: flex;
         position: relative;
         font-size: 1.5rem;
-        color: #091420;
+        color: $bluemain;
         font-weight: 600;
     }
     .box1__card1__svg__p{
         display: flex;
         position: relative;
         font-size: 1.2rem;
-        color: #091420;
+        color: $bluemain;
     }
     .box1__card1__svg__btn{
         display: flex;
         position: relative;
-        background-color: #091420;
+        background-color: $bluemain;
         border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
         width: 8.5rem;
         height: 2.15rem;
@@ -153,7 +152,7 @@
         display: flex;
         position: relative;
         font-size: 1.1rem;
-        color: white;
+        color: $white;
         font-weight: 500;
     }
 }
@@ -162,7 +161,7 @@
     padding: 0.5rem;
 }
 .box1__card2__svg{
-    background-color: white;
+    background-color: $white;
     width: 30rem;
     height: 28rem;
     border-radius: 50px;
@@ -244,19 +243,19 @@
         display: flex;
         position: relative;
         font-size: 1.5rem;
-        color: #091420;
+        color: $bluemain;
         font-weight: 600;
     }
     .box1__card2__svg__p{
         display: flex;
         position: relative;
         font-size: 1.1rem;
-        color: #091420;
+        color: $bluemain;
     }
     .box1__card2__svg__btn{
         display: flex;
         position: relative;
-        background-color: #091420;
+        background-color: $bluemain;
         border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
         width: 8.5rem;
         height: 2.15rem;
@@ -269,7 +268,7 @@
         display: flex;
         position: relative;
         font-size: 1.1rem;
-        color: white;
+        color: $white;
         font-weight: 500;
     }
 }
@@ -282,7 +281,7 @@
     padding: 0.5rem;
 }
 .box2__card3__svg{
-    background-color: white;
+    background-color: $white;
     width: 30rem;
     height: 28rem;
     border-radius: 50px;
@@ -364,19 +363,19 @@
         display: flex;
         position: relative;
         font-size: 1.5rem;
-        color: #091420;
+        color: $bluemain;
         font-weight: 600;
     }
     .box2__card3__svg__p{
         display: flex;
         position: relative;
         font-size: 1.1rem;
-        color: #091420;
+        color: $bluemain;
     }
     .box2__card3__svg__btn{
         display: flex;
         position: relative;
-        background-color: #091420;
+        background-color: $bluemain;
         border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
         width: 8.5rem;
         height: 2.15rem;
@@ -389,7 +388,7 @@
         display: flex;
         position: relative;
         font-size: 1.1rem;
-        color: white;
+        color: $white;
         font-weight: 500;
     }
 }
@@ -398,7 +397,7 @@
     padding: 0.5rem;
 }
 .box2__card4__svg{
-    background-color: white;
+    background-color: $white;
     width: 30rem;
     height: 32rem;
     border-radius: 50px;
@@ -481,19 +480,19 @@
         display: flex;
         position: relative;
         font-size: 1.5rem;
-        color: #091420;
+        color: $bluemain;
         font-weight: 600;
     }
     .box2__card4__svg__p{
         display: flex;
         position: relative;
         font-size: 1.1rem;
-        color: #091420;
+        color: $bluemain;
     }
     .box2__card4__svg__btn{
         display: flex;
         position: relative;
-        background-color: #091420;
+        background-color: $bluemain;
         border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
         width: 8.5rem;
         height: 2.15rem;
