@@ -1242,7 +1242,8 @@ section#sobremi__info {
 .info__p {
   font-size: 1rem;
   padding: 1rem 3rem 3rem 3rem;
-  color: #091420; }
+  color: #091420;
+  text-align: center; }
 
 .info__mail {
   display: flex;
@@ -1403,54 +1404,114 @@ section#sobremi__info {
   #gif__conteiner {
     width: 100%;
     height: 100vh;
-    padding: 0.5rem;
+    padding: 0rem;
     grid-template-columns: 1fr;
     grid-template-rows: 4fr;
     grid-template-areas: "b1" "b2" "b3" "b4"; }
-  .b1__box1 {
-    width: 100%;
-    height: 16rem;
-    background-color: #e4e7ec;
-    border-radius: 0rem;
-    padding: 0.5rem; }
-  .b1__box1__circle {
-    width: 7rem;
-    height: 7rem; }
-  .b1__box1__h4 {
-    font-size: 1.2rem; }
-  .b2__box2 {
-    width: 100%;
-    height: 16rem;
-    background-color: #e4e7ec;
-    border-radius: 0rem;
-    padding: 0.5rem; }
-  .b2__box2__circle {
-    width: 7rem;
-    height: 7rem; }
-  .b2__box2__h4 {
-    font-size: 1.2rem; }
-  .b3__box3 {
-    width: 100%;
-    height: 16rem;
-    background-color: #e4e7ec;
-    border-radius: 0rem;
-    padding: 0.5rem; }
-  .b3__box3__circle {
-    width: 7rem;
-    height: 7rem; }
-  .b3__box3__h4 {
-    font-size: 1.2rem; }
-  .b4__box4 {
-    width: 100%;
-    height: 16rem;
-    background-color: #e4e7ec;
-    border-radius: 0rem;
-    padding: 0.5rem; }
-  .b4__box4__circle {
-    width: 7rem;
-    height: 7rem; }
-  .b4__box4__h4 {
-    font-size: 1.2rem; }
+  #b1 {
+    padding: 1rem 0rem; }
+    #b1 .b1__box1 {
+      width: 100%;
+      height: 16rem;
+      border-radius: 0;
+      padding: 1rem; }
+      #b1 .b1__box1:hover {
+        background-color: #091420; }
+      #b1 .b1__box1 .b1__box1__circle {
+        background-color: white;
+        width: 7rem;
+        height: 7rem;
+        padding: 0.5rem; }
+      #b1 .b1__box1 .b1__box1__a {
+        width: 7rem;
+        height: 2.25rem;
+        margin-top: 4.25rem;
+        margin-bottom: 1rem;
+        justify-content: center;
+        align-items: center; }
+        #b1 .b1__box1 .b1__box1__a .b1__box1__a__p {
+          font-size: 1rem; }
+      #b1 .b1__box1 .b1__box1__h4 {
+        font-size: 1.2rem;
+        padding: 1.5rem 1rem 0.5rem 1rem; }
+  #b2 {
+    padding: 1rem 0rem; }
+    #b2 .b2__box2 {
+      width: 100%;
+      height: 16rem;
+      border-radius: 0;
+      padding: 1rem; }
+      #b2 .b2__box2:hover {
+        background-color: #091420; }
+      #b2 .b2__box2 .b2__box2__circle {
+        background-color: white;
+        width: 7rem;
+        height: 7rem;
+        padding: 0.5rem; }
+      #b2 .b2__box2 .b2__box2__a {
+        width: 7rem;
+        height: 2.25rem;
+        margin-top: 4.25rem;
+        margin-bottom: 1rem;
+        justify-content: center;
+        align-items: center; }
+        #b2 .b2__box2 .b2__box2__a .b2__box2__a__p {
+          font-size: 1rem; }
+      #b2 .b2__box2 .b2__box2__h4 {
+        font-size: 1.2rem;
+        padding: 1.5rem 1rem 0.5rem 1rem; }
+  #b3 {
+    padding: 1rem 0rem; }
+    #b3 .b3__box3 {
+      width: 100%;
+      height: 16rem;
+      border-radius: 0;
+      padding: 1rem; }
+      #b3 .b3__box3:hover {
+        background-color: #091420; }
+      #b3 .b3__box3 .b3__box3__circle {
+        background-color: white;
+        width: 7rem;
+        height: 7rem;
+        padding: 0.5rem; }
+      #b3 .b3__box3 .b3__box3__a {
+        width: 7rem;
+        height: 2.25rem;
+        margin-top: 4.25rem;
+        margin-bottom: 1rem;
+        justify-content: center;
+        align-items: center; }
+        #b3 .b3__box3 .b3__box3__a .b3__box3__a__p {
+          font-size: 1rem; }
+      #b3 .b3__box3 .b3__box3__h4 {
+        font-size: 1.2rem;
+        padding: 1.5rem 1rem 0.5rem 1rem; }
+  #b4 {
+    padding: 1rem 0rem; }
+    #b4 .b4__box4 {
+      width: 100%;
+      height: 16rem;
+      border-radius: 0;
+      padding: 1rem; }
+      #b4 .b4__box4:hover {
+        background-color: #091420; }
+      #b4 .b4__box4 .b4__box4__circle {
+        background-color: white;
+        width: 7rem;
+        height: 7rem;
+        padding: 0.5rem; }
+      #b4 .b4__box4 .b4__box4__a {
+        width: 7rem;
+        height: 2.25rem;
+        margin-top: 4.25rem;
+        margin-bottom: 1rem;
+        justify-content: center;
+        align-items: center; }
+        #b4 .b4__box4 .b4__box4__a .b4__box4__a__p {
+          font-size: 1rem; }
+      #b4 .b4__box4 .b4__box4__h4 {
+        font-size: 1.2rem;
+        padding: 1.5rem 1rem 0.5rem 1rem; }
   /* ---------- INDEX MOVIL FINAL---------- */
   /* ---------------- PROYECTO MOVIL ---------------- */
   #proyectos {
