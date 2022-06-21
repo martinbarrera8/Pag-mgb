@@ -12,3 +12,24 @@
 @import "proyectos-cb";
 @import "proyectos-bm";
 @import "proyectos-ea";
+
+@each $pagsproyectos in proyectos-bm, proyectos-ea, proyectos-ls, proyectos-cb {
+    .img1__w{
+        width: 87.5rem;
+    }
+    .img2__w{
+        width: 87.5rem;
+    }
+    .img3__w{
+        width: 87.5rem;
+    }
+    .img4__w{
+        width: 87.5rem;
+    }
+    .img5__w{
+        width: 87.5rem;
+    }
+    .img6__w{
+        width: 87.5rem;
+    }
+}
