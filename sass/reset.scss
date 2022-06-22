@@ -23,7 +23,11 @@ body{
 
 }
 
-header {position: sticky;top: 0;
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
 }
 
   /* RESET BOOTSTRAP */
