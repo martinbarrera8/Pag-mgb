@@ -15,10 +15,10 @@
         align-items: center;
         justify-content: center;
         margin-top: 0.4rem;
+        margin-left: 0.5rem;
     }
     
     .nav__head{
-        display: flex;
     align-items: center;
     }
     
@@ -40,5 +40,7 @@
     .nav__li__a:hover{
         color: $orangemain;
     }
-    
+    .navbar-toggler{
+        margin-right: 0.5rem;
+    }
     /* ---------------- FINAL NAV ---------------- */

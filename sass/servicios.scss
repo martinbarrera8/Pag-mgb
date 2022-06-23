@@ -153,12 +153,47 @@
         flex-direction: column;
         justify-content: center;
     }
-    .servicios__box-ul__li{
+    .servicios__box__ul__li{
         font-size: 1rem;
-        padding: 0.5rem;
+        padding: 0.25rem 0rem;
     }
     .servicios__box__svg{
         width: 25rem;
+    }
+    .servicios__box__btn{
+        display: flex;
+        position: relative;
+        background-color: $bluemain;
+        border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
+        width: 9.5rem;
+        height: 2.15rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        transition: all 0.2s ease-in-out;
+
+
+
+        &:hover{
+            background-color: $white;
+            border: 0.2rem solid $bluemain;
+    
+            color: $bluemain;
+
+            .servicios__box__btn__a{
+                color: $bluemain;
+            }
+    
+        }
+
+    .servicios__box__btn__a{
+        display: flex;
+        position: relative;
+        font-size: 1.05rem;
+        color: white;
+        font-weight: 500;
+    }
+
     }
 
 }

@@ -39,6 +39,27 @@
     .img6__w{
       @include sizes(87.5rem, auto)
     }
+
+    @media only screen and (min-width: 320px) and (max-width: 991px){
+
+        .img1__w{
+            @include sizes(100%, auto)
+        }
+        .img2__w{
+           @include sizes(100%, auto)
+        }
+        .img3__w{
+           @include sizes(100%, auto)
+        }
+        .img4__w{
+            @include sizes(100%, auto)
+        }
+        .img5__w{
+           @include sizes(100%, auto)
+        }
+        .img6__w{
+          @include sizes(100%, auto)
+        }
 }
 
-
+}
