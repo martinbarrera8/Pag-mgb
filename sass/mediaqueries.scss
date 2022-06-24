@@ -773,15 +773,142 @@ padding: 0.5rem;
 @media only screen and (min-width: 576px) and (max-width: 991px){
 
 
-/* ---------- NAV ---------- */
+/* ---------- NAV TABLET ---------- */
     .navbar-collapse{
         justify-content: center;
         text-align: center;
         background-color: $orangemain;
     }
-/* ---------- FINAL NAV ---------- */
+/* ---------- FINAL NAV TABLET ---------- */
+
+/* ---------------- INDEX TABLET ---------------- */
+
+.home__p__line1{
+    text-align: center;
+}
+.home__p__line2{
+    text-align: center;
+}
+
+#index__section__gif{
+    background-size: cover;
+    background-position: center
+}
+
+#b1{
+
+.b1__box1{
+    width: 36rem;
+    height: 26rem;
+}
+}
+
+#b2{
+
+.b2__box2{
+    width: 36rem;
+    height: 26rem;
+}
+}
+
+#b3{
+
+.b3__box3{
+    width: 36rem;
+    height: 26rem;
+}
+}
+#b4{
 
 
+.b4__box4{
+    width: 36rem;
+    height: 26rem;
+}
+}
+
+/* ---------------- FINAL INDEX TABLET ---------------- */
+
+/* ---------------- PROYECTOS ---------------- */
+
+
+.proyectos__title__h1{
+    font-size: 3.2rem;
+}
+
+.box1__card1__svg{
+    width: 20.063rem;
+    height: 21.375rem;
+}
+.box1__card1__svg:hover{
+
+
+    .box1__card1__svg__logo{
+        width: 10rem;
+    }
+}
+
+.box1__card2__svg{
+    width: 20.063rem;
+    height: 18.75rem;
+}
+.box1__card2__svg:hover{
+ 
+    .box1__card2__svg__logo{
+        width: 9rem;
+    }
+    .box1__card2__svg__h3{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .box1__card2__svg__p{
+        text-align: center;
+    }
+    .box1__card2__svg__btn{
+        margin-top: 1rem;
+    }
+}
+
+.box2__card3__svg{
+    width: 20.063rem;
+    height: 18.75rem;
+}
+
+.box2__card3__svg:hover{
+
+    .box2__card3__svg__logo{
+        width: 9rem;
+    }
+    .box2__card3__svg__h3{
+        font-size: 1.4rem;
+    }
+    .box2__card3__svg__btn{
+        margin-top: 1.5rem;
+    }
+}
+
+.box2__card4__svg{
+    width: 20.063rem;
+    height: 21.375rem;
+}
+
+.box2__card4__svg:hover{
+  
+    .box2__card4__svg__logo{
+        width: 10rem;
+    }
+}
+
+
+.proyectos__title__h2{
+    font-size: 3rem;
+}
+.logofolio__box{
+    width: 15rem;
+    height: 15rem;
+}
+
+/* ---------------- FINAL PROYECTOS ---------------- */
 
 }
 
