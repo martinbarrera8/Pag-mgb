@@ -1752,6 +1752,7 @@ section#sobremi__info {
     height: 240rem;
     flex-direction: column;
     grid-template-columns: 100%;
+    overflow-x: hidden;
     grid-template-rows: auto auto auto auto;
     grid-template-areas: "servicios_b1" "servicios_b2" "servicios_b3" "servicios_b4"; }
     #servicios__conteiner section#servicios__b1 .servicios__b1__box1 {
@@ -2007,34 +2008,42 @@ section#sobremi__info {
   .box1__card1__svg {
     width: 20.063rem;
     height: 21.375rem; }
-  .box1__card1__svg:hover .box1__card1__svg__logo {
-    width: 10rem; }
+  .box1__card1__svg:hover {
+    border-radius: 35px; }
+    .box1__card1__svg:hover .box1__card1__svg__logo {
+      width: 10rem; }
   .box1__card2__svg {
     width: 20.063rem;
     height: 18.75rem; }
-  .box1__card2__svg:hover .box1__card2__svg__logo {
-    width: 9rem; }
-  .box1__card2__svg:hover .box1__card2__svg__h3 {
-    font-size: 1.3rem;
-    text-align: center; }
-  .box1__card2__svg:hover .box1__card2__svg__p {
-    text-align: center; }
-  .box1__card2__svg:hover .box1__card2__svg__btn {
-    margin-top: 1rem; }
+  .box1__card2__svg:hover {
+    border-radius: 35px; }
+    .box1__card2__svg:hover .box1__card2__svg__logo {
+      width: 9rem; }
+    .box1__card2__svg:hover .box1__card2__svg__h3 {
+      font-size: 1.3rem;
+      text-align: center; }
+    .box1__card2__svg:hover .box1__card2__svg__p {
+      text-align: center; }
+    .box1__card2__svg:hover .box1__card2__svg__btn {
+      margin-top: 1rem; }
   .box2__card3__svg {
     width: 20.063rem;
     height: 18.75rem; }
-  .box2__card3__svg:hover .box2__card3__svg__logo {
-    width: 9rem; }
-  .box2__card3__svg:hover .box2__card3__svg__h3 {
-    font-size: 1.4rem; }
-  .box2__card3__svg:hover .box2__card3__svg__btn {
-    margin-top: 1.5rem; }
+  .box2__card3__svg:hover {
+    border-radius: 35px; }
+    .box2__card3__svg:hover .box2__card3__svg__logo {
+      width: 9rem; }
+    .box2__card3__svg:hover .box2__card3__svg__h3 {
+      font-size: 1.4rem; }
+    .box2__card3__svg:hover .box2__card3__svg__btn {
+      margin-top: 1.5rem; }
   .box2__card4__svg {
     width: 20.063rem;
     height: 21.375rem; }
-  .box2__card4__svg:hover .box2__card4__svg__logo {
-    width: 10rem; }
+  .box2__card4__svg:hover {
+    border-radius: 35px; }
+    .box2__card4__svg:hover .box2__card4__svg__logo {
+      width: 10rem; }
   .proyectos__title__h2 {
     font-size: 3rem; }
   .logofolio__box {

@@ -440,6 +440,7 @@
     height: 240rem;
     flex-direction: column;
     grid-template-columns: 100%;
+    overflow-x: hidden;
     grid-template-rows: auto auto auto auto;
     grid-template-areas: "servicios_b1"
                          "servicios_b2"
@@ -841,7 +842,7 @@ padding: 0.5rem;
     height: 21.375rem;
 }
 .box1__card1__svg:hover{
-
+    border-radius: 35px;
 
     .box1__card1__svg__logo{
         width: 10rem;
@@ -853,7 +854,8 @@ padding: 0.5rem;
     height: 18.75rem;
 }
 .box1__card2__svg:hover{
- 
+    border-radius: 35px;
+
     .box1__card2__svg__logo{
         width: 9rem;
     }
@@ -875,6 +877,7 @@ padding: 0.5rem;
 }
 
 .box2__card3__svg:hover{
+    border-radius: 35px;
 
     .box2__card3__svg__logo{
         width: 9rem;
@@ -893,6 +896,7 @@ padding: 0.5rem;
 }
 
 .box2__card4__svg:hover{
+    border-radius: 35px;
   
     .box2__card4__svg__logo{
         width: 10rem;
