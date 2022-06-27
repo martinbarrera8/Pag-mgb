@@ -13,6 +13,8 @@ li {
 
 a {
   color: none;
+  --bs-link-hover-color: #0a58ca;
+  /*  */
   text-decoration: none; }
 
 body {
@@ -129,7 +131,7 @@ p {
 .home__h2__svg {
   -webkit-animation: flicker-1 3s linear infinite both;
   animation: flicker-1 3s linear infinite both;
-  animation-iteration-count: 2; }
+  animation-iteration-count: 3; }
 
 @keyframes flicker-1 {
   0%,
@@ -184,7 +186,8 @@ p {
   font-size: 1.15rem;
   font-weight: 600;
   color: #091420;
-  text-decoration: none; }
+  text-decoration: none;
+  --bs-link-hover-color: $bluemain; }
 
 .index__section__sentence {
   width: 100%; }
@@ -281,16 +284,21 @@ section#b4 {
       display: none;
       background-color: white;
       border-radius: 50px;
-      width: 8rem;
-      height: 2rem;
+      width: 7.2rem;
+      height: 1.8rem;
       margin-top: 4.25rem;
       margin-bottom: 1rem;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      transition: all 0.2s ease-in-out; }
+      #b1 .b1__box1 .b1__box1__a:hover {
+        background-color: #091420;
+        border: 0.1rem solid white; }
+        #b1 .b1__box1 .b1__box1__a:hover .b1__box1__a__p {
+          color: white; }
       #b1 .b1__box1 .b1__box1__a .b1__box1__a__p {
         color: #091420;
-        font-size: 1.05rem;
-        font-weight: 600; }
+        font-size: 1.05rem; }
     #b1 .b1__box1 .b1__box1__h4 {
       font-size: 1.5rem;
       color: #091420;
@@ -359,16 +367,21 @@ section#b4 {
       display: none;
       background-color: white;
       border-radius: 50px;
-      width: 8rem;
-      height: 2rem;
+      width: 7.2rem;
+      height: 1.8rem;
       margin-top: 4.25rem;
       margin-bottom: 1rem;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      transition: all 0.2s ease-in-out; }
+      #b2 .b2__box2 .b2__box2__a:hover {
+        background-color: #091420;
+        border: 0.1rem solid white; }
+        #b2 .b2__box2 .b2__box2__a:hover .b2__box2__a__p {
+          color: white; }
       #b2 .b2__box2 .b2__box2__a .b2__box2__a__p {
         color: #091420;
-        font-size: 1.05rem;
-        font-weight: 600; }
+        font-size: 1.05rem; }
     #b2 .b2__box2 .b2__box2__h4 {
       font-size: 1.5rem;
       color: #091420;
@@ -436,16 +449,21 @@ section#b4 {
       display: none;
       background-color: white;
       border-radius: 50px;
-      width: 8rem;
-      height: 2rem;
+      width: 7.2rem;
+      height: 1.8rem;
       margin-top: 4.25rem;
       margin-bottom: 1rem;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      transition: all 0.2s ease-in-out; }
+      #b3 .b3__box3 .b3__box3__a:hover {
+        background-color: #091420;
+        border: 0.1rem solid white; }
+        #b3 .b3__box3 .b3__box3__a:hover .b3__box3__a__p {
+          color: white; }
       #b3 .b3__box3 .b3__box3__a .b3__box3__a__p {
         color: #091420;
-        font-size: 1.05rem;
-        font-weight: 600; }
+        font-size: 1.05rem; }
     #b3 .b3__box3 .b3__box3__h4 {
       font-size: 1.5rem;
       color: #091420;
@@ -513,16 +531,21 @@ section#b4 {
       display: none;
       background-color: white;
       border-radius: 50px;
-      width: 8rem;
-      height: 2rem;
+      width: 7.2rem;
+      height: 1.8rem;
       margin-top: 4.25rem;
       margin-bottom: 1rem;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      transition: all 0.2s ease-in-out; }
+      #b4 .b4__box4 .b4__box4__a:hover {
+        background-color: #091420;
+        border: 0.1rem solid white; }
+        #b4 .b4__box4 .b4__box4__a:hover .b4__box4__a__p {
+          color: white; }
       #b4 .b4__box4 .b4__box4__a .b4__box4__a__p {
         color: #091420;
-        font-size: 1.05rem;
-        font-weight: 600; }
+        font-size: 1.05rem; }
     #b4 .b4__box4 .b4__box4__h4 {
       font-size: 1.5rem;
       color: #091420;
@@ -1319,7 +1342,7 @@ section#sobremi__info {
 .imagen__svg {
   background-color: white;
   width: 32rem;
-  height: 44rem;
+  height: 40rem;
   border-radius: 50px; }
 
 .sobremi__info__conteiner {
@@ -1346,11 +1369,34 @@ section#sobremi__info {
   font-weight: 600;
   color: #091420; }
 
+.info__conteinerIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.info__boxIcon1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem; }
+
+.info__boxIcon2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0rem 0rem 2rem 0rem; }
+
+.info__icon__svg {
+  width: 2.7rem;
+  padding: 0.2rem; }
+
 .info__p {
-  font-size: 1rem;
-  padding: 1rem 3rem 3rem 3rem;
+  font-size: 1.1rem;
+  padding: 1rem 3rem 0rem 3rem;
   color: #091420;
-  text-align: center; }
+  text-align: center;
+  font-weight: 500; }
 
 .info__mail {
   display: flex;
@@ -1879,16 +1925,15 @@ section#sobremi__info {
     font-weight: 600; }
   /* ---------------- CONTACTO MOVIL FINAL ---------------- */
   #sobremi {
-    height: 64rem;
-    display: grid;
-    grid-template-rows: 2% auto auto 2%;
+    flex-direction: column;
+    height: 68rem;
+    grid-template-rows: 40% 60%;
     grid-template-columns: 100%;
-    grid-template-areas: "header" "imagen" "info" "footer"; }
+    grid-template-areas: "imagen" "info"; }
   .imagen__svg {
-    width: 12rem;
-    height: 20rem;
-    border-radius: 50px;
-    margin: 0.5rem; }
+    width: 17rem;
+    height: 21.25rem;
+    border-radius: 25px; }
   .sobremi__info__conteiner {
     display: flex;
     justify-content: center;
@@ -2002,7 +2047,7 @@ section#sobremi__info {
     width: 36rem;
     height: 26rem; }
   /* ---------------- FINAL INDEX TABLET ---------------- */
-  /* ---------------- PROYECTOS ---------------- */
+  /* ---------------- PROYECTOS TABLET ---------------- */
   .proyectos__title__h1 {
     font-size: 3.2rem; }
   .box1__card1__svg {
@@ -2049,7 +2094,249 @@ section#sobremi__info {
   .logofolio__box {
     width: 15rem;
     height: 15rem; }
-  /* ---------------- FINAL PROYECTOS ---------------- */ }
+  /* ---------------- FINAL PROYECTOS TABLET ---------------- */
+  /* ---------- SERVICIO TABLET ---------- */
+  .servicios__title {
+    padding: 2.5rem; }
+    .servicios__title .servicios__title__h1 {
+      font-size: 2.5rem; }
+  #servicios__conteiner {
+    width: 100%;
+    height: 240rem;
+    flex-direction: column;
+    grid-template-columns: 100%;
+    overflow-x: hidden;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "servicios_b1" "servicios_b2" "servicios_b3" "servicios_b4"; }
+    #servicios__conteiner section#servicios__b1 .servicios__b1__box1 {
+      width: 100%;
+      height: 59rem;
+      border-radius: 0;
+      flex-direction: column-reverse; }
+      #servicios__conteiner section#servicios__b1 .servicios__b1__box1 .servicios__box__title__b1 {
+        flex-direction: column;
+        padding: 1rem; }
+    #servicios__conteiner section#servicios__b2 {
+      justify-content: flex-end; }
+      #servicios__conteiner section#servicios__b2 .servicios__b2__box2 {
+        width: 100%;
+        height: 60rem;
+        border-radius: 0;
+        flex-direction: column-reverse; }
+        #servicios__conteiner section#servicios__b2 .servicios__b2__box2 .servicios__box__title__b2 {
+          flex-direction: column;
+          padding: 1rem; }
+    #servicios__conteiner section#servicios__b3 .servicios__b3__box3 {
+      width: 100%;
+      height: 57rem;
+      border-radius: 0;
+      flex-direction: column-reverse; }
+      #servicios__conteiner section#servicios__b3 .servicios__b3__box3 .servicios__box__title__b3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem; }
+    #servicios__conteiner section#servicios__b4 {
+      justify-content: flex-end; }
+      #servicios__conteiner section#servicios__b4 .servicios__b4__box4 {
+        width: 100%;
+        height: 52rem;
+        border-radius: 0;
+        flex-direction: column-reverse;
+        margin-bottom: 0.5rem; }
+        #servicios__conteiner section#servicios__b4 .servicios__b4__box4 .servicios__box__title__b4 {
+          flex-direction: column;
+          padding: 1rem; }
+        #servicios__conteiner section#servicios__b4 .servicios__b4__box4 .servicios__box__title {
+          height: 14rem; }
+    #servicios__conteiner .servicios__box__h3 {
+      font-size: 1.2rem;
+      padding: 0.5rem 0rem;
+      text-align: center; }
+    #servicios__conteiner .servicios__box__title {
+      flex-direction: column;
+      padding: 0rem 2rem;
+      width: 100%;
+      height: 20rem;
+      overflow: scroll; }
+    #servicios__conteiner .servicios__box__p {
+      font-size: 1rem;
+      text-align: center; }
+    #servicios__conteiner .servicios__box__ul {
+      width: 15rem;
+      padding: 1rem;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    #servicios__conteiner .servicios__box__ul__li {
+      font-size: 1rem;
+      padding: 0.25rem 0rem;
+      text-align: center; }
+    #servicios__conteiner .servicios__box__svg {
+      width: 16rem;
+      padding: 1rem; }
+  /* ---------- FINAL SERVICIO TABLET ---------- */
+  /* ---------------- CONTACTO TABLET ---------------- */
+  .contacto__background {
+    height: 10rem; }
+  .contacto__background__gif {
+    display: none; }
+  .contacto__title {
+    position: initial; }
+  .contacto__title__h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0.6rem; }
+  .contacto__title__h3 {
+    font-size: 1.2rem; }
+  .contacto__section__conteiner {
+    margin-top: 0rem;
+    height: 46.1rem; }
+  .contacto__box {
+    display: flex;
+    padding: 2rem 0rem;
+    flex-direction: column; }
+  .contacto__nombre {
+    padding: 2rem 0rem; }
+  .contacto__mail {
+    padding: 2rem 0rem; }
+  .contacto__telefono {
+    padding: 2rem 0rem; }
+  .contacto__servicios {
+    padding: 2rem 0rem; }
+  .contacto__nombre__input {
+    text-decoration: none;
+    width: 20rem;
+    border: none;
+    border-bottom: 1px solid #091420;
+    background-color: #e4e7ec;
+    font-size: 0.90rem;
+    color: #091420; }
+  .contacto__label {
+    font-size: 0.90rem; }
+  textarea {
+    height: 2em;
+    width: 22em;
+    font-size: 0.90rem;
+    border-bottom: 1px solid #091420; }
+  .contacto__consulta {
+    padding: 2.5rem 0rem; }
+  .contacto__btn__summit {
+    background-color: #fcce9e;
+    border-radius: 50px;
+    width: 6rem;
+    height: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600; }
+  /* ---------------- CONTACTO TABLET FINAL ---------------- */
+  /* ---------------- SOBRE MI TABLET ---------------- */
+  #sobremi {
+    flex-direction: column;
+    grid-template-rows: 40% 60%;
+    grid-template-columns: 100%;
+    grid-template-areas: "imagen" "info"; }
+  .imagen__svg {
+    width: 17rem;
+    height: 21.25rem;
+    border-radius: 25px; }
+  .sobremi__info__conteiner {
+    display: flex;
+    background-color: #e4e7ec;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem; }
+  .info {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+  .info__h1 {
+    font-size: 3.48rem;
+    font-weight: 600;
+    color: #091420;
+    padding: 0.5rem;
+    text-align: center; }
+  .info__h2 {
+    font-size: 1.56rem;
+    font-weight: 600;
+    color: #091420; }
+  .info__conteinerIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+  .info__boxIcon1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem; }
+  .info__boxIcon2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0rem 0rem 2rem 0rem; }
+  .info__icon__svg {
+    width: 2.7rem;
+    padding: 0.2rem; }
+  .info__p {
+    font-size: 1.1rem;
+    padding: 1rem 3rem 0rem 3rem;
+    color: #091420;
+    text-align: center;
+    font-weight: 500; }
+  .info__mail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem; }
+  .info__mail__link {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #091420;
+    padding: 0.5rem;
+    font-weight: 600; }
+  .info__mail__icon {
+    width: 2rem; }
+  .info__cel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem; }
+  .info__cel__link {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #091420;
+    padding: 0.5rem; }
+  .info__mail__cel {
+    width: 2rem; }
+  .info__redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem; }
+  .info__redes__a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #091420;
+    padding: 0.4rem; }
+  .info__line1 {
+    background-color: #fcce9e;
+    width: 2.3rem;
+    height: 0.15rem;
+    margin: 2rem 1rem 0rem 1rem; }
+  .info__line2 {
+    background-color: #fcce9e;
+    width: 2.3rem;
+    height: 0.15rem;
+    margin: 1rem; }
+  /* ---------------- FINAL SOBRE MI TABLET ---------------- */ }
 
 #ls {
   display: grid;

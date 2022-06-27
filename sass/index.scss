@@ -35,7 +35,7 @@
   .home__h2__svg{
     -webkit-animation: flicker-1 3s linear infinite both;
     animation: flicker-1 3s linear infinite both;
-    animation-iteration-count: 2;
+    animation-iteration-count: 3;
 }
   @keyframes flicker-1 {
     0%,
@@ -102,6 +102,7 @@
     font-weight: 600;
     color: $bluemain;
     text-decoration: none;
+    --bs-link-hover-color: $bluemain;
 }
 .index__section__sentence{
     width: 100%;
@@ -212,18 +213,30 @@ section#b4{
     display: none;
     background-color: $white;
     border-radius: 50px;
-    width: 8rem;
-    height: 2rem;
+    width: 7.2rem;
+    height: 1.8rem;
     margin-top: 4.25rem;
     margin-bottom: 1rem;
     justify-content: center;
     align-items: center;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+        background-color: $bluemain;
+        border: 0.1rem solid $white;
+        
+        .b1__box1__a__p{
+            color: white;
+        }
+    }
 
     .b1__box1__a__p{
         color: $bluemain;
         font-size: 1.05rem;
-        font-weight: 600;
     }
+
+
+    
 }
 .b1__box1__h4{
     font-size: 1.5rem;
@@ -312,17 +325,26 @@ section#b4{
     display: none;
     background-color: $white;
     border-radius: 50px;
-    width: 8rem;
-    height: 2rem;
+    width: 7.2rem;
+    height: 1.8rem;
     margin-top: 4.25rem;
     margin-bottom: 1rem;
     justify-content: center;
     align-items: center;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+        background-color: $bluemain;
+        border: 0.1rem solid $white;
+        
+        .b2__box2__a__p{
+            color: white;
+        }
+    }
 
     .b2__box2__a__p{
         color: $bluemain;
         font-size: 1.05rem;
-        font-weight: 600;
     }
 }
 .b2__box2__h4{
@@ -411,17 +433,26 @@ section#b4{
     display: none;
     background-color: $white;
     border-radius: 50px;
-    width: 8rem;
-    height: 2rem;
+    width: 7.2rem;
+    height: 1.8rem;
     margin-top: 4.25rem;
     margin-bottom: 1rem;
     justify-content: center;
     align-items: center;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+        background-color: $bluemain;
+        border: 0.1rem solid $white;
+        
+        .b3__box3__a__p{
+            color: white;
+        }
+    }
 
     .b3__box3__a__p{
         color: $bluemain;
         font-size: 1.05rem;
-        font-weight: 600;
     }
 }
 .b3__box3__h4{
@@ -509,17 +540,26 @@ section#b4{
     display: none;
     background-color: $white;
     border-radius: 50px;
-    width: 8rem;
-    height: 2rem;
+    width: 7.2rem;
+    height: 1.8rem;
     margin-top: 4.25rem;
     margin-bottom: 1rem;
     justify-content: center;
     align-items: center;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+        background-color: $bluemain;
+        border: 0.1rem solid $white;
+        
+        .b4__box4__a__p{
+            color: white;
+        }
+    }
 
     .b4__box4__a__p{
         color: $bluemain;
         font-size: 1.05rem;
-        font-weight: 600;
     }
 }
 .b4__box4__h4{
