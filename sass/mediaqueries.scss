@@ -1,0 +1,1284 @@
+/* -------- PARA MOVIL -------- */
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+
+/* ---------- NAV MOVIL ---------- */
+.navbar{
+    --bs-navbar-toggler-padding-x: 1rem;
+    --bs-navbar-toggler-font-size: 1.50rem;
+}
+.navbar-collapse{
+    justify-content: center;
+    text-align: center;
+    background-color: $orangemain;
+}
+.navbar-toggler{
+    border: none;
+}
+/* ---------- FINAL NAV MOVIL ---------- */
+
+
+/* ---------- INDEX MOVIL ---------- */
+
+.index__section__home{
+    padding: 1rem;
+}
+
+.home__h1{
+    font-size: 5.4rem;
+}
+.home__h2{
+    margin: -0.5rem;
+    font-size: 2.3rem;
+}
+.home__h2__svg{
+    width:2.5rem;
+}  
+.home__p__line1{
+    font-size: 1rem;
+    padding: 1rem 0.25rem;
+    text-align: center;
+}
+.home__p__line2{
+    font-size: 1rem;
+    font-size: 1rem;
+    padding: 1rem 0.25rem;
+    text-align: center;
+}
+.home__btn{
+    width: 9rem;
+    height: 2rem;
+}
+.home__btn__a{
+    font-size: 1.05rem;
+}
+.sentence__conteiner__p{
+    font-size: 1rem;
+    padding: 1.5rem;
+}
+
+#index__section__gif{
+    background-image: none;
+    height: 80rem;
+    padding: 0.5rem 0rem;
+}
+#gif__conteiner{
+    width: 100%;
+    height: 100vh;
+    padding: 0rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr;
+    grid-template-areas: "b1" "b2"
+                         "b3" "b4"
+    ;
+}
+
+#b1{
+    padding: 1rem 0rem;
+
+.b1__box1{
+    width: 100%;
+    height: 18rem;
+    border-radius: 0;
+    padding: 1rem;
+
+    &:hover{
+        background-color: $bluemain;
+    }
+.b1__box1__circle{
+    background-color: $white;
+    width: 7rem;
+    height: 7rem;
+    padding: 0.5rem;
+}
+.b1__box1__a{
+    width: 7rem;
+    height: 2.25rem;
+    margin-top: 4.25rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+
+    .b1__box1__a__p{
+        font-size: 1rem;
+    }
+}
+.b1__box1__h4{
+    font-size: 1.2rem;
+    padding: 1.5rem 1rem 0.5rem 1rem;
+}
+}
+}
+
+#b2{
+    padding: 1rem 0rem;
+
+.b2__box2{
+    width: 100%;
+    height: 18rem;
+    border-radius: 0;
+    padding: 1rem;
+
+    &:hover{
+        background-color: $bluemain;
+    }
+.b2__box2__circle{
+    background-color: $white;
+    width: 7rem;
+    height: 7rem;
+    padding: 0.5rem;
+}
+.b2__box2__a{
+    width: 7rem;
+    height: 2.25rem;
+    margin-top: 4.25rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+
+    .b2__box2__a__p{
+        font-size: 1rem;
+    }
+}
+.b2__box2__h4{
+    font-size: 1.2rem;
+    padding: 1.5rem 1rem 0.5rem 1rem;
+}
+}
+}
+
+#b3{
+    padding: 1rem 0rem;
+
+.b3__box3{
+    width: 100%;
+    height: 18rem;
+    border-radius: 0;
+    padding: 1rem;
+
+    &:hover{
+        background-color: $bluemain;
+    }
+.b3__box3__circle{
+    background-color: $white;
+    width: 7rem;
+    height: 7rem;
+    padding: 0.5rem;
+}
+.b3__box3__a{
+    width: 7rem;
+    height: 2.25rem;
+    margin-top: 4.25rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+
+    .b3__box3__a__p{
+        font-size: 1rem;
+    }
+}
+.b3__box3__h4{
+    font-size: 1.2rem;
+    padding: 1.5rem 1rem 0.5rem 1rem;
+}
+}
+}
+
+#b4{
+    padding: 1rem 0rem;
+
+.b4__box4{
+    width: 100%;
+    height: 18rem;
+    border-radius: 0;
+    padding: 1rem;
+
+    &:hover{
+        background-color: $bluemain;
+    }
+.b4__box4__circle{
+    background-color: $white;
+    width: 7rem;
+    height: 7rem;
+    padding: 0.5rem;
+}
+.b4__box4__a{
+    width: 7rem;
+    height: 2.25rem;
+    margin-top: 4.25rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+
+    .b4__box4__a__p{
+        font-size: 1rem;
+    }
+}
+.b4__box4__h4{
+    font-size: 1.2rem;
+    padding: 1.5rem 1rem 0.5rem 1rem;
+}
+}
+}
+
+
+/* ---------- INDEX MOVIL FINAL---------- */
+
+
+/* ---------------- PROYECTO MOVIL ---------------- */
+
+#proyectos{
+    width: 100%;
+}
+.proyectos__gif__conteiner{
+    height: 10rem;
+}
+.proyectos__gif__background{
+display: none;
+}
+.proyectos__gif__title{
+    position: initial;
+}
+.proyectos__gif__title__h1{
+font-size: 2rem;
+text-align: center;
+padding: 0.6rem;
+}
+
+.proyectos__conteiner{
+    display: flex;
+    padding: 0.5rem;
+    grid-area: box1;
+}
+.proyectos__conteiner__box1{
+    display: flex;
+    flex-direction: column;
+}
+.box1__card1{
+    padding: 0.15rem;
+}
+.box1__card1__svg{
+    width: 10.688rem;
+    height: 11.438rem;
+    border-radius: 50px;
+    
+    &.box1__card1__svg__btn__a{
+        font-size: 0.90rem;
+    }
+
+}
+.box1__card1__svg:hover{
+    width: 10.688rem;
+    height: 11.438rem;
+    border-radius: 25px;
+
+    .box1__card1__svg__logo{
+        width: 5rem;
+    }
+    .box1__card1__svg__h3{
+        font-size: 1.1rem;
+
+    }
+    .box1__card1__svg__p{
+        display: none;
+    }
+    .box1__card1__svg__btn{
+        width: 5rem;
+        height: 1.25rem;
+        margin-top: 0.5rem;
+    }
+    .box1__card1__svg__btn__a{
+        font-size: 0.95rem;
+    }
+}
+
+.box1__card2{
+    padding: 0.15rem;
+}
+.box1__card2__svg{
+    width: 10.688rem;
+    height: 10rem;
+    border-radius: 50px;
+    
+    &.box1__card2__svg__btn__a{
+        font-size: 1.1rem;
+    }
+
+}
+.box1__card2__svg:hover{
+    width: 10.688rem;
+    height: 10rem;
+    border-radius: 25px;
+    text-align: center;
+
+    .box1__card2__svg__logo{
+        width: 5rem;
+    }
+    .box1__card2__svg__h3{
+        font-size: 1rem;
+
+    }
+    .box1__card2__svg__p{
+        display: none;
+    }
+    .box1__card2__svg__btn{
+        width: 5rem;
+        height: 1.25rem;
+        margin-top: 0.5rem;
+    }
+    .box1__card2__svg__btn__a{
+        font-size: 0.95rem;
+    }
+}
+
+.box2__card3{
+    padding: 0.15rem;
+}
+.box2__card3__svg{
+
+    width: 10.688rem;
+    height: 10rem;
+    border-radius: 50px;
+    
+    &.box2__card3__svg__btn__a{
+        font-size: 1.1rem;
+    }
+
+}
+.box2__card3__svg:hover{
+    width: 10.688rem;
+    height: 10rem;
+    border-radius: 25px;
+
+    .box2__card3__svg__logo{
+        width: 6rem;
+    }
+    .box2__card3__svg__h3{
+        font-size: 1.1rem;
+
+    }
+    .box2__card3__svg__p{
+        display: none;
+    }
+    .box2__card3__svg__btn{
+        width: 5rem;
+        height: 1.25rem;
+        margin-top: 0.5rem;
+    }
+    .box2__card3__svg__btn__a{
+        font-size: 0.95rem;
+    }
+}
+
+.box2__card4{
+    padding: 0.15rem;
+}
+.box2__card4__svg{
+
+    width: 10.688rem;
+    height: 11.438rem;
+    border-radius: 50px;
+    
+    &.box2__card4__svg__btn__a{
+        font-size: 1.1rem;
+    }
+
+}
+.box2__card4__svg:hover{
+    width: 10.688rem;
+    height: 11.438rem;
+    border-radius: 25px;
+    
+
+    .box2__card4__svg__logo{
+        width: 5rem;
+    }
+    .box2__card4__svg__h3{
+        font-size: 1.1rem;
+    }
+    .box2__card4__svg__p{
+        display: none;
+    }
+    .box2__card4__svg__btn{
+        width: 5rem;
+        height: 1.25rem;
+        margin-top: 0.5rem;
+    }
+    .box2__card4__svg__btn__a{
+        font-size: 0.95rem;
+    }
+}
+
+
+.proyectos__title__h2{
+    font-size: 2rem;
+}
+
+.proyectos__conteiner__logofolio{
+    display: flex;
+    padding: 1rem 0rem 5rem 0rem;
+}
+.logofolio__box{
+    background-color: $white;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 25px;
+}
+
+
+/* ---------------- FINAL PROYECTOS MOVIL ---------------- */
+
+
+/* ---------- SERVICIO MOVIL ---------- */
+
+.servicios__title{
+    padding: 2.5rem;
+
+.servicios__title__h1{
+        font-size: 2.5rem;
+}
+
+} 
+
+#servicios__conteiner{
+    width: 100%;
+    height: 240rem;
+    flex-direction: column;
+    grid-template-columns: 100%;
+    overflow-x: hidden;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "servicios_b1"
+                         "servicios_b2"
+                         "servicios_b3"
+                         "servicios_b4"
+    ;
+    
+    section#servicios__b1{
+
+        .servicios__b1__box1{
+            width: 100%;
+            height: 59rem;
+            border-radius: 0;
+            flex-direction: column-reverse;
+
+        .servicios__box__title__b1{
+            flex-direction: column;
+            padding: 1rem;
+          }
+          
+        }
+    }
+
+    section#servicios__b2{
+
+        justify-content: flex-end;
+
+        .servicios__b2__box2{
+            width: 100%rem;
+            height: 60rem;
+            border-radius:0;
+            flex-direction: column-reverse;
+        
+        .servicios__box__title__b2{
+            flex-direction: column;
+            padding: 1rem;
+        }
+     }
+    }
+
+
+    section#servicios__b3{
+
+        .servicios__b3__box3{
+            width: 100%;
+            height: 57rem;
+            border-radius: 0;
+            flex-direction: column-reverse;
+      
+        .servicios__box__title__b3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1rem;
+        }
+    }
+    }
+    
+    section#servicios__b4{
+        justify-content: flex-end;
+
+        .servicios__b4__box4{
+            width: 100%;
+            height: 60rem;
+            border-radius: 0;
+            flex-direction: column-reverse;
+            margin-bottom: 0.5rem;
+        
+
+        .servicios__box__title__b4{
+            flex-direction: column;
+            padding: 1rem;
+        }
+    }
+    }
+    .servicios__box__h3{
+        font-size: 1.2rem;
+        padding: 0.5rem 0rem;
+        text-align: center;
+    }
+    .servicios__box__title{
+        flex-direction: column;
+        padding: 0rem 2rem;
+        width: 100%;
+        height: 25rem;
+        overflow: scroll;
+    }
+    .servicios__box__p{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .servicios__box__ul{
+        width: 15rem;
+        padding: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .servicios__box__ul__li{
+        font-size: 1rem;
+        padding: 0.25rem 0rem;
+        text-align: center;
+    }
+    .servicios__box__svg{
+        width: 12rem;
+        padding: 1rem;
+    }
+
+}
+
+
+/* ---------- FINAL SERVICIO MOVIL ---------- */
+
+
+/* ---------------- CONTACTO MOVIL ---------------- */
+
+.contacto__background{
+    height: 10rem;
+}
+.contacto__background__gif{
+display: none;
+}
+.contacto__title{
+    position: initial;
+}
+.contacto__title__h1{
+font-size: 2rem;
+text-align: center;
+padding: 0.6rem;
+}
+
+.contacto__section__conteiner{
+    margin-top: 0rem;
+    height: 45rem;
+}
+.contacto__box{
+    display: flex;
+    padding: 2rem 0rem;
+    flex-direction: column;
+}
+.contacto__nombre{
+    padding: 2rem 0rem;
+}
+.contacto__mail{
+    padding: 2rem 0rem;
+}
+.contacto__telefono{
+    padding: 2rem 0rem;
+}
+.contacto__servicios{
+    padding: 2rem 0rem;
+}
+.contacto__nombre__input{
+    text-decoration: none;
+    width: 20rem;
+    border: none;
+    border-bottom:1px solid $bluemain;
+    background-color: $graymain;
+    font-size: 0.90rem;
+    color: $bluemain;
+}
+.contacto__label{
+    font-size: 0.90rem;
+}
+textarea{ 
+    height: 2em;
+    width: 22em;
+    font-size: 0.90rem;
+    border-bottom: 1px solid $bluemain;
+}
+.contacto__consulta{
+    padding: 2.5rem 0rem;
+}
+.contacto__btn__summit{
+    background-color: $orangemain;
+    border-radius: 50px;
+    width: 6rem;
+    height: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* ---------------- CONTACTO MOVIL FINAL ---------------- */
+
+
+#sobremi{
+    flex-direction: column;
+    height: 68rem;
+    grid-template-rows: 40% 60%;
+    grid-template-columns: 100%;
+    grid-template-areas: "imagen" "info";
+    ;
+}
+
+.imagen__svg{
+    width: 17rem;
+    height: 21.25rem;
+    border-radius: 25px;
+}
+
+.sobremi__info__conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.info__h1{
+    font-size: 2.1rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    text-align: center;
+
+}
+.info__h2{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.info__p{
+    font-size: 0.90rem;
+    padding: 0.5rem;
+
+}
+.info__mail{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0.5rem;
+}
+.info__mail__link{
+    font-size: 0.90rem;
+    padding: 1rem;
+    font-weight: 600;
+}
+.info__mail__icon{
+    width: 1.50rem;
+}
+.info__cel{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0.5rem;
+}
+.info__cel__link{
+    font-size: 0.90rem;
+    font-weight: 600;
+    padding: 0.5rem;
+}
+.info__cel__icon{
+    width: 1.50rem;
+}
+.info_redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+.info__redes__a{
+    font-size: 0.90rem;
+    padding: 0.4rem;
+}
+.info__line1{
+    width: 2.3rem;
+    height: 0.15rem;
+    margin: 1rem 1rem 0rem 1rem;
+}
+.info__line2{
+    width: 2.3rem;
+    height: 0.15rem;
+    margin: 0.5rem;
+}
+
+
+/* ---------------- SOBRE MI MOVIL FINAL ---------------- */
+
+
+/* ---------------- FOOTER MOVIL ---------------- */
+
+.footer__conteiner{
+    height: 13rem;
+}
+
+.footer__up{
+padding: 0.5rem;
+}
+
+.footer__down{
+    flex-direction: column-reverse;
+    margin-top: 0rem;
+    padding: 0rem;
+}
+.footer__down__p{
+    font-size: 0.7rem;
+}
+.navFooter__barra{
+    display: flex;
+    align-content: center;
+    background-color: $graymain;
+    margin: 1rem;
+    width: 0.08rem;
+    height: 1rem;
+}
+.footer__down__nav__icon{
+    width: 1.5rem;
+}
+
+/* ---------------- FOOTER MOVIL FINAL ---------------- */
+  
+
+}
+
+/*------------------------------------------------ Para Tablet ------------------------------------------------*/
+
+@media only screen and (min-width: 576px) and (max-width: 991px){
+
+
+/* ---------- NAV TABLET ---------- */
+    .navbar-collapse{
+        justify-content: center;
+        text-align: center;
+        background-color: $orangemain;
+    }
+/* ---------- FINAL NAV TABLET ---------- */
+
+/* ---------------- INDEX TABLET ---------------- */
+
+.home__p__line1{
+    text-align: center;
+}
+.home__p__line2{
+    text-align: center;
+}
+
+#index__section__gif{
+    background-size: cover;
+    background-position: center
+}
+
+#b1{
+
+.b1__box1{
+    width: 36rem;
+    height: 26rem;
+}
+}
+
+#b2{
+
+.b2__box2{
+    width: 36rem;
+    height: 26rem;
+}
+}
+
+#b3{
+
+.b3__box3{
+    width: 36rem;
+    height: 26rem;
+}
+}
+#b4{
+
+
+.b4__box4{
+    width: 36rem;
+    height: 26rem;
+}
+}
+
+/* ---------------- FINAL INDEX TABLET ---------------- */
+
+/* ---------------- PROYECTOS TABLET ---------------- */
+
+
+#proyectos{
+    width: 100%;
+}
+.proyectos__gif__conteiner{
+    height: 10rem;
+}
+.proyectos__gif__background{
+    display: none;
+}
+.proyectos__gif__title{
+    position: relative;
+}
+
+.proyectos__gif__title__h1{
+    font-size: 2rem;
+}
+
+.proyectos__conteiner{
+    width: 100%;
+}
+.box1__card1__svg{
+    width: 20.063rem;
+    height: 21.375rem;
+}
+.box1__card1__svg:hover{
+    border-radius: 35px;
+
+    .box1__card1__svg__logo{
+        width: 10rem;
+    }
+}
+
+.box1__card2__svg{
+    width: 20.063rem;
+    height: 18.75rem;
+}
+.box1__card2__svg:hover{
+    border-radius: 35px;
+
+    .box1__card2__svg__logo{
+        width: 9rem;
+    }
+    .box1__card2__svg__h3{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .box1__card2__svg__p{
+        text-align: center;
+    }
+    .box1__card2__svg__btn{
+        margin-top: 1rem;
+    }
+}
+
+.box2__card3__svg{
+    width: 20.063rem;
+    height: 18.75rem;
+}
+
+.box2__card3__svg:hover{
+    border-radius: 35px;
+
+    .box2__card3__svg__logo{
+        width: 9rem;
+    }
+    .box2__card3__svg__h3{
+        font-size: 1.4rem;
+    }
+    .box2__card3__svg__btn{
+        margin-top: 1.5rem;
+    }
+}
+
+.box2__card4__svg{
+    width: 20.063rem;
+    height: 21.375rem;
+}
+
+.box2__card4__svg:hover{
+    border-radius: 35px;
+  
+    .box2__card4__svg__logo{
+        width: 10rem;
+    }
+}
+
+
+.proyectos__title__h2{
+    font-size: 3rem;
+}
+.logofolio__box{
+    width: 15rem;
+    height: 15rem;
+}
+
+/* ---------------- FINAL PROYECTOS TABLET ---------------- */
+
+
+/* ---------- SERVICIO TABLET ---------- */
+
+.servicios__title{
+    padding: 2.5rem;
+
+.servicios__title__h1{
+        font-size: 2.5rem;
+}
+
+} 
+
+#servicios__conteiner{
+    width: 100%;
+    height: 240rem;
+    flex-direction: column;
+    grid-template-columns: 100%;
+    overflow-x: hidden;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "servicios_b1"
+                         "servicios_b2"
+                         "servicios_b3"
+                         "servicios_b4"
+    ;
+    
+    section#servicios__b1{
+
+        .servicios__b1__box1{
+            width: 100%;
+            height: 59rem;
+            border-radius: 0;
+            flex-direction: column-reverse;
+
+        .servicios__box__title__b1{
+            flex-direction: column;
+            padding: 1rem;
+          }
+          
+        }
+    }
+
+    section#servicios__b2{
+
+        justify-content: flex-end;
+
+        .servicios__b2__box2{
+            width: 100%;
+            height: 60rem;
+            border-radius:0;
+            flex-direction: column-reverse;
+        
+        .servicios__box__title__b2{
+            flex-direction: column;
+            padding: 1rem;
+        }
+     }
+    }
+
+
+    section#servicios__b3{
+
+        .servicios__b3__box3{
+            width: 100%;
+            height: 57rem;
+            border-radius: 0;
+            flex-direction: column-reverse;
+      
+        .servicios__box__title__b3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1rem;
+        }
+    }
+    }
+    
+    section#servicios__b4{
+        justify-content: flex-end;
+
+        .servicios__b4__box4{
+            width: 100%;
+            height: 52rem;
+            border-radius: 0;
+            flex-direction: column-reverse;
+            margin-bottom: 0.5rem;
+        
+
+        .servicios__box__title__b4{
+            flex-direction: column;
+            padding: 1rem;
+        }
+
+        .servicios__box__title{
+            height: 14rem;
+        }
+    }
+    }
+    .servicios__box__h3{
+        font-size: 1.2rem;
+        padding: 0.5rem 0rem;
+        text-align: center;
+    }
+    .servicios__box__title{
+        flex-direction: column;
+        padding: 0rem 2rem;
+        width: 100%;
+        height: 20rem;
+        overflow: scroll;
+    }
+    .servicios__box__p{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .servicios__box__ul{
+        width: 15rem;
+        padding: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .servicios__box__ul__li{
+        font-size: 1rem;
+        padding: 0.25rem 0rem;
+        text-align: center;
+    }
+    .servicios__box__svg{
+        width: 16rem;
+        padding: 1rem;
+    }
+
+}
+
+/* ---------- FINAL SERVICIO TABLET ---------- */
+
+
+/* ---------------- CONTACTO TABLET ---------------- */
+
+.contacto__background{
+    height: 10rem;
+}
+.contacto__background__gif{
+display: none;
+}
+.contacto__title{
+    position: initial;
+}
+.contacto__title__h1{
+font-size: 2rem;
+text-align: center;
+padding: 0.6rem;
+}
+
+.contacto__section__conteiner{
+    margin-top: 0rem;
+    height: 46.1rem;
+}
+.contacto__box{
+    display: flex;
+    padding: 2rem 0rem;
+    flex-direction: column;
+}
+.contacto__nombre{
+    padding: 2rem 0rem;
+}
+.contacto__mail{
+    padding: 2rem 0rem;
+}
+.contacto__telefono{
+    padding: 2rem 0rem;
+}
+.contacto__servicios{
+    padding: 2rem 0rem;
+}
+.contacto__nombre__input{
+    text-decoration: none;
+    width: 20rem;
+    border: none;
+    border-bottom:1px solid $bluemain;
+    background-color: $graymain;
+    font-size: 0.90rem;
+    color: $bluemain;
+}
+.contacto__label{
+    font-size: 0.90rem;
+}
+textarea{ 
+    height: 2em;
+    width: 22em;
+    font-size: 0.90rem;
+    border-bottom: 1px solid $bluemain;
+}
+.contacto__consulta{
+    padding: 2.5rem 0rem;
+}
+.contacto__btn__summit{
+    background-color: $orangemain;
+    border-radius: 50px;
+    width: 6rem;
+    height: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* ---------------- CONTACTO TABLET FINAL ---------------- */
+
+
+/* ---------------- SOBRE MI TABLET ---------------- */
+
+#sobremi{
+    flex-direction: column;
+    grid-template-rows: 40% 60%;
+    grid-template-columns: 100%;
+    grid-template-areas: "imagen" "info";
+    ;
+}
+
+.imagen__svg{
+    width: 17rem;
+    height: 21.25rem;
+    border-radius: 25px;
+}
+
+.sobremi__info__conteiner{
+    display: flex;
+    background-color: $graymain;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+.info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.info__h1{
+    font-size: 3.48rem;
+    font-weight: 600;
+    color: $bluemain;
+    padding: 0.5rem;
+    text-align: center;
+}
+.info__h2{
+    font-size: 1.56rem;
+    font-weight: 600;
+    color: $bluemain;
+}
+.info__conteinerIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.info__boxIcon1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+}
+.info__boxIcon2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0rem 0rem 2rem 0rem;
+}
+.info__icon__svg{
+    width: 2.7rem;
+    padding: 0.2rem;
+}
+.info__p{
+    font-size: 1.1rem;
+    padding: 1rem 3rem 0rem 3rem;
+    color: $bluemain;
+    text-align: center;
+    font-weight: 500;
+}
+.info__mail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+.info__mail__link{
+    text-decoration: none;
+    font-size: 1rem;
+    color: $bluemain;
+    padding: 0.5rem;
+    font-weight: 600;
+}
+.info__mail__icon{
+    width: 2rem;
+}
+.info__cel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+.info__cel__link{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: $bluemain;
+    padding: 0.5rem;
+}
+.info__mail__cel{
+    width: 2rem;
+}
+.info__redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.info__redes__a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: $bluemain;
+    padding: 0.4rem;
+}
+.info__line1{
+    background-color: $orangemain;
+    width: 2.3rem;
+    height: 0.15rem;
+    margin: 2rem 1rem 0rem 1rem;
+}
+.info__line2{
+    background-color: $orangemain;
+    width: 2.3rem;
+    height: 0.15rem;
+    margin: 1rem;
+}
+
+/* ---------------- FINAL SOBRE MI TABLET ---------------- */
+
+/* ---------------- FOOTER TABLET ---------------- */
+
+.footer__conteiner {
+    height: 12.8rem;
+}
+
+/* ---------------- FINAL FOOTER TABLET ---------------- */
+
+}
+
+

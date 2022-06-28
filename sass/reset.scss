@@ -1,0 +1,71 @@
+@import "color";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+ul{
+    margin-top: 0;
+  margin-bottom: 0rem;
+}
+li{
+  list-style: none;
+}
+
+a {
+  color: none;
+  --bs-link-hover-color: #0a58ca; /*  */
+  text-decoration: none;
+}
+
+body{
+  background-color: $graymain;
+
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+}
+
+  /* RESET BOOTSTRAP */
+  p{
+    margin-bottom: 0rem;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    margin-bottom: 0rem;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+    
+.nav__head{
+        flex-grow: 0;
+}
+    
+.nav__ul{
+        display: flex;
+        margin-bottom: 0rem;
+}
+    
+.nav__li{
+        padding: 0rem 0.5rem;
+        padding-right: 0rem 2rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+    --bs-navbar-padding-y: 0rem;
+}
+.navbar-collapse{
+    justify-content: center;
+    text-align: center;
+}
+.container-fluid{
+  --bs-gutter-x: 0rem;
+}
+  /* RESET BOOTSTRAP FINAL */

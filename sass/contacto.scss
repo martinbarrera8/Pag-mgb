@@ -1,0 +1,189 @@
+/* ---------------- CONTACTO ---------------- */
+
+.contacto__background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 13rem;
+    background-color: $orangemain;
+    overflow-x: hidden;
+}
+.contacto__title{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.contacto__title__h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: $bluemain;
+    padding: 1.5rem;
+}
+.contacto__title__h3{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: $bluemain;
+}
+
+
+.contacto__section__conteiner{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: -10rem;
+}
+
+.contacto__box{
+    display: flex;
+    padding: 3rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.contacto__nombre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0rem 3rem 0rem 3rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: relative;
+}
+.contacto__mail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0rem 3rem 0rem 3rem;
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+}
+.contacto__telefono{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0rem 3rem 0rem 3rem;
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+}
+.contacto__servicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.contacto__consulta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    outline: none;
+    color: $bluemain;
+}
+    textarea{
+    background-color: #e4e7eca0;
+    border: none;
+    border-bottom:1px solid $bluemain;
+    font-size: 1.1rem;
+    outline: none;
+}
+
+.contacto__nombre__input{
+    background-color: #e4e7eca0;
+    padding: 10px 0px 0px 0px;
+    text-decoration: none;
+    width: 20rem;
+    border: none;
+    border-bottom:1px solid $bluemain;
+    font-size: 1.1rem;
+}
+
+
+.contacto__label{
+    font-size: 1rem;
+    color: $bluemain;
+    position: absolute;
+    top: -22px;
+    transform: translate(0px, 10px);
+    transform-origin: left;
+    transition: transform .25s;
+}
+.contacto__nombre:focus-within .contacto__label{
+transform: 
+translate(0, -5px) scale(.8);
+color: $bluemain;
+font-size: 1.1rem;
+}
+.contacto__nombre:focus-within .contacto__nombre__input{
+    border-bottom:2px solid $orangemain;
+    outline: none;
+}
+.contacto__mail:focus-within .contacto__label{
+    transform: 
+    translate(0, -5px) scale(.9);
+    color: $bluemain;
+    font-size: 1.1rem;
+}
+.contacto__mail:focus-within .contacto__nombre__input{
+    border-bottom:2px solid $orangemain;
+    outline: none;
+}
+.contacto__telefono:focus-within .contacto__label{
+    transform: 
+    translate(0, -5px) scale(.8);
+    color: $bluemain;
+    font-size: 1.1rem;
+}
+.contacto__telefono:focus-within .contacto__nombre__input{
+    border-bottom:2px solid $orangemain;
+    outline: none;
+}
+
+.contacto__servicios:focus-within .contacto__nombre__input{
+    border-bottom:2px solid $orangemain;
+    outline: none;
+}
+.contacto__consulta:focus-within textarea{
+    border-bottom:2px solid $orangemain;
+    outline: none;
+}
+.contacto__nombre__input:focus-within{
+color: $bluemain;
+}
+
+.contacto__btn{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.contacto__btn__submit{
+    background-color: $orangemain;
+    border-radius: 50px;
+    width: 8rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+/* ---------------- FINAL CONTACTO ---------------- */
