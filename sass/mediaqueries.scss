@@ -229,15 +229,21 @@
 /* ---------------- PROYECTO MOVIL ---------------- */
 
 #proyectos{
-    width: 90rem;
+    width: 100%;
 }
-
-.proyectos__title{
-    padding: 2rem;
+.proyectos__gif__conteiner{
+    height: 10rem;
 }
-
-.proyectos__title__h1{
-    font-size: 2.5rem;
+.proyectos__gif__background{
+display: none;
+}
+.proyectos__gif__title{
+    position: initial;
+}
+.proyectos__gif__title__h1{
+font-size: 2rem;
+text-align: center;
+padding: 0.6rem;
 }
 
 .proyectos__conteiner{
@@ -571,9 +577,6 @@ font-size: 2rem;
 text-align: center;
 padding: 0.6rem;
 }
-.contacto__title__h3{
-    font-size: 1.2rem;
-}
 
 .contacto__section__conteiner{
     margin-top: 0rem;
@@ -830,10 +833,26 @@ padding: 0.5rem;
 /* ---------------- PROYECTOS TABLET ---------------- */
 
 
-.proyectos__title__h1{
-    font-size: 3.2rem;
+#proyectos{
+    width: 100%;
+}
+.proyectos__gif__conteiner{
+    height: 10rem;
+}
+.proyectos__gif__background{
+    display: none;
+}
+.proyectos__gif__title{
+    position: relative;
 }
 
+.proyectos__gif__title__h1{
+    font-size: 2rem;
+}
+
+.proyectos__conteiner{
+    width: 100%;
+}
 .box1__card1__svg{
     width: 20.063rem;
     height: 21.375rem;
@@ -1062,9 +1081,6 @@ font-size: 2rem;
 text-align: center;
 padding: 0.6rem;
 }
-.contacto__title__h3{
-    font-size: 1.2rem;
-}
 
 .contacto__section__conteiner{
     margin-top: 0rem;
@@ -1254,6 +1270,14 @@ textarea{
 }
 
 /* ---------------- FINAL SOBRE MI TABLET ---------------- */
+
+/* ---------------- FOOTER TABLET ---------------- */
+
+.footer__conteiner {
+    height: 12.8rem;
+}
+
+/* ---------------- FINAL FOOTER TABLET ---------------- */
 
 }
 

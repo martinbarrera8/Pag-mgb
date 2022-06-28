@@ -95,11 +95,11 @@
 
 .home__btn:hover{
     background-color: $graymain;
-    border: 0.2rem solid $orangemain;
+    border: 0.15rem solid $bluemain;
 }
 .home__btn__a{
     font-size: 1.15rem;
-    font-weight: 600;
+    font-weight: 550;
     color: $bluemain;
     text-decoration: none;
     --bs-link-hover-color: $bluemain;
