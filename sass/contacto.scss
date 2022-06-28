@@ -8,6 +8,7 @@
     height: 13rem;
     background-color: $orangemain;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 .contacto__title{
     display: flex;
@@ -185,5 +186,14 @@ color: $bluemain;
     border: none;
     font-size: 1.1rem;
     font-weight: 600;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+        background-color: $graymain;
+        border: 0.15rem solid $bluemain;
+
+        color: $bluemain;
+
+    }
 }
 /* ---------------- FINAL CONTACTO ---------------- */
